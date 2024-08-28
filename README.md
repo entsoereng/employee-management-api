@@ -58,7 +58,7 @@ This is an Employee Management API built using Node.js, Express.js, and MongoDB.
 - Create an Employee
 
   ```http
-  POST /employees
+  POST /employee
   ```
 
   Body:
@@ -76,19 +76,19 @@ This is an Employee Management API built using Node.js, Express.js, and MongoDB.
 - Get All Employees
 
   ```http
-  GET /employees
+  GET /employee
   ```
 
 - Get Employee by ID
 
   ```http
-  GET /employees/:employeeId
+  GET /employee/:employeeId
   ```
 
 - Update an Employee
 
   ```http
-  PATCH /employees/:employeeId
+  PATCH /employee/:employeeId
   ```
 
   Body (example):
@@ -101,13 +101,13 @@ This is an Employee Management API built using Node.js, Express.js, and MongoDB.
 - Deactivate an Employee
 
   ```http
-  PATCH /employees/:employeeId/deactivate
+  PATCH /employee/:employeeId/deactivate
   ```
 
 - Delete an Employee
 
   ```http
-  DELETE /employees/:employeeId
+  DELETE /employee/:employeeId
   ```
 
 ### Reviews
